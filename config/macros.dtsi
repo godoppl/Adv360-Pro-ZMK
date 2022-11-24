@@ -1,3 +1,9 @@
+macro_run_command: macro_run_command{
+compatible = "zmk,behavior-macro";
+label = "macro_run_command";
+#binding-cells = <0>;
+bindings = <&kp LG(D)>;
+};
 macro_new_term: macro_new_term{
 compatible = "zmk,behavior-macro";
 label = "macro_new_term";
